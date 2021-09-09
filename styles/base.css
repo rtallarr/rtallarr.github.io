@@ -1,0 +1,8 @@
+* {
+    background-color: aliceblue;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
