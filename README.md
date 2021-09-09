@@ -2,4 +2,4 @@
 
 Test repository for web development.
 
-https://rodrigotallar.github.io
+<a href="https://rodrigotallar.github.io">Link to page</a>
