@@ -1,6 +1,6 @@
 # Web development projects
 
-### Done - Left
+### Done - Dropped
 > Personal Website
 ### In progress
 ### Future plans
