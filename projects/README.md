@@ -5,3 +5,4 @@
 ### In progress
 > Calculator
 ### Future plans
+> Tic Tac Toe
