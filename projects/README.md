@@ -3,4 +3,5 @@
 ### Done - Dropped
 > Personal Website
 ### In progress
+> Calculator
 ### Future plans
