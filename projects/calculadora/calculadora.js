@@ -3,6 +3,7 @@ function display(val) {
 }
 
 function evaluate() {
+    alert("f")
     let x = document.getElementById("textval").value
     let y = eval(x)
     document.getElementById("textval").value = y

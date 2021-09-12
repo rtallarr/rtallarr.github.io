@@ -2,7 +2,20 @@
     background-color: aliceblue;
 }
 
+h1 {
+    margin-bottom: 40px;
+}
+
 ul {
     display: table;
     margin: 0 auto;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
