@@ -19,7 +19,10 @@ th, td {
 }
 
 a {
+    display: table;
     color: whitesmoke;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a:link {
