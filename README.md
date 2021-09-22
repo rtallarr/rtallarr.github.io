@@ -7,5 +7,5 @@
 2. Open index.html in a web browser
 
 ### OR
-1. Visit <a href="https://rtallarr.github.io/Homepage/">This Link</a>
+1. Visit <a href="https://rtallarr.github.io">This Link</a>
 asdasd
