@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+h1 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 66px;
+	margin-bottom: 30px;
+	text-rendering: optimizelegibility;
+}
+
+nav{
+    background-color:lightgrey;
+    display: block;
+    position: fixed;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+    width: 100%;
+    text-align: center;
+}
+
+.section {
+    margin: 0 15px 15px 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(238, 236, 230);
+    border-radius: 10px;
+}
+
+.item {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+}
+
+.item:hover{
+    background-color: darkgray;
+}
+
+.copyright {
+	font-size: 8pt;
+    text-align: left;
+    color: grey;
+    margin: 0 0 5px 15px;
+    letter-spacing: 1px;
+}
