@@ -1,0 +1,81 @@
+html {
+    background: cadetblue;
+}
+
+table {
+    border: 2px solid rgb(157, 255, 0);
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+    text-align: center;
+    align-content: center;
+    empty-cells: hide;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    table-layout: fixed;
+    width: 60%;
+}
+
+th, td {
+    border: 2px solid palegreen;
+    border-radius: 5px;
+    width: 125px;
+    height: 25px;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.numero {
+    max-width: 25px;
+}
+
+.cmi {
+    background-color: rgb(231, 140, 155);
+}
+
+.practico {
+    background-color: wheat;
+}
+
+.cardio {
+    background-color: rgb(255, 80, 80);
+}
+
+.resp {
+    background-color: violet;
+}
+
+.cardio-res{
+    background-color: rgb(243, 110, 118);
+}
+
+.pato {
+    background-color: yellow;
+}
+
+.psiq {
+    background-color: rgb(173, 168, 168);
+}
+
+.crit {
+    background-color: turquoise;
+}
+
+.bio {
+    background-color: green;
+}
+
+.etica {
+    background-color: orange;
+}
+
+.teo {
+    background-color: rgb(82, 245, 82);
+}
