@@ -6,4 +6,3 @@
 
 ### OR
 1. Visit <a href="https://rtallarr.github.io">This Link</a>
-asdasd
