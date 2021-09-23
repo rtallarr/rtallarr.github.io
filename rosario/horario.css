@@ -12,7 +12,6 @@ table {
     empty-cells: hide;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     table-layout: fixed;
     width: 60%;
 }
