@@ -1,3 +1,20 @@
+#pic { /* default size: 644 - 1091 px*/
+    width: 175px;
+	margin: -55px auto 0 auto;
+}
+
+#img-container {
+	width: 175px;
+	height: 175px;
+	overflow: hidden;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+#tallar {
+    color: red;
+}
+
 #bio {
     color: rgb(134, 150, 144);
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
@@ -7,9 +24,4 @@
 	margin-right: auto;
 	margin-top: 40px;
 	max-width: 30%;
-}
-
-img {
-    width: 250px;
-    border-radius: 10%;
 }
