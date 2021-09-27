@@ -13,3 +13,8 @@ textarea {
     max-width: 350px;
     height: 350px;
 }
+
+#send:hover {
+    background-color: gray;
+    cursor: pointer;
+}
