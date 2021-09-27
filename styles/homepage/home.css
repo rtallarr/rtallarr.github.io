@@ -1,11 +1,15 @@
+#home {
+	margin-top: 50px;
+}
+
 #pic { /* default size: 644 - 1091 px*/
-    width: 175px;
-	margin: -55px auto 0 auto;
+    width: 200px;
+	margin: -60px auto 0 auto;
 }
 
 #img-container {
-	width: 175px;
-	height: 175px;
+	width: 200px;
+	height: 200px;
 	overflow: hidden;
 	margin: 0 auto;
 	border-radius: 50%;

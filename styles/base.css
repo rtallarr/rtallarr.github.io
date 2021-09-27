@@ -16,17 +16,23 @@ nav{
     background-color:lightgrey;
     display: block;
     position: fixed;
-    border-bottom: 1px solid rgba(34,36,38,.15);
+    border-bottom: 1px solid rgb(34,36,38);
+    opacity: 0.8;
     width: 100%;
     text-align: center;
+    margin: -50px auto 0 auto;
 }
 
 section {
-    margin: 0 15px 15px 15px;
+    margin: 30px 15px 15px 15px;
     padding: 10px;
     text-align: center;
     background-color: rgb(238, 236, 230);
     border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .item {
