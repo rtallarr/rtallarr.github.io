@@ -20,14 +20,12 @@ nav{
     opacity: 0.8;
     width: 100%;
     text-align: center;
-    margin: -50px auto 0 auto;
 }
 
 section {
     margin: 30px 15px 15px 15px;
     padding: 10px;
     text-align: center;
-    background-color: rgb(238, 236, 230);
     border-radius: 10px;
 }
 
