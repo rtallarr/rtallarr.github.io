@@ -10,12 +10,16 @@ table {
     margin-right: auto;
     text-align: center;
     table-layout: fixed;
-    width: 825px;
+    width: 850px;
     border-collapse: collapse;
 }
 
 th, td {
     border: 2px solid rgb(131, 76, 95);
+}
+
+.ramo {
+    color: whitesmoke;
 }
 
 a {

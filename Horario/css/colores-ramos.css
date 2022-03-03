@@ -1,31 +1,31 @@
-.sis {
-    background-color: red;
-}
-
-.filosofia {
-    background-color: gray;
-}
-
-.fis {
-    background-color: forestgreen;
-}
-
-.analisis {
-    background-color: rgb(189, 189, 0);
-}
-
-.opti {
-    background-color: teal;
-}
-
-.informatica {
-    background-color: rgb(170, 13, 170);
-}
-
 .break {
     background-color: rgb(151, 151, 151);
 }
 
 .ayudantia {
     background-color: rgb(130, 200, 200);
+}
+
+.redes {
+    background-color: rgb(170, 13, 170);
+}
+
+.fis {
+    background-color: forestgreen;
+}
+
+.algo {
+    background-color: rgb(33, 54, 241);
+}
+
+.fio {
+    background-color: red;
+}
+
+.soft {
+    background-color: rgb(179, 179, 95);
+}
+
+.econo {
+    background-color: lightskyblue;
 }
