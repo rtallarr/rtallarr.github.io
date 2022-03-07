@@ -9,7 +9,7 @@ ul {
 #one::marker{
     content:"\25A0";
     font-size: 1.5rem;
-    color: gray;
+    color: rgb(170, 13, 170);
     vertical-align: bottom;
 }
 
@@ -17,7 +17,7 @@ ul {
 #two::marker{
     content:"\25A0";
     font-size: 1.5rem;
-    color: red;
+    color: forestgreen;
     vertical-align: bottom;
 }
 
@@ -25,7 +25,7 @@ ul {
 #three::marker{
     content:"\25A0";
     font-size: 1.5rem;
-    color: teal;
+    color: rgb(33, 54, 241);
     vertical-align: bottom;
 }
 
@@ -33,7 +33,7 @@ ul {
 #four::marker{
     content:"\25A0";
     font-size: 1.5rem;
-    color: yellow;
+    color: red;
     vertical-align: bottom;
 }
 
@@ -41,7 +41,14 @@ ul {
 #five::marker{
     content:"\25A0";
     font-size: 1.5rem;
-    color: rgb(170, 13, 170);
+    color: rgb(179, 179, 95);
+    vertical-align: bottom;
+}
+
+#six::marker{
+    content:"\25A0";
+    font-size: 1.5rem;
+    color: lightskyblue;
     vertical-align: bottom;
 }
 
