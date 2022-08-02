@@ -22,26 +22,33 @@
         </nav>
 
         <section id="home">
-            <h1>Rodrigo<span id="tallar">Tallar</span></h1>
+            <h1>Rodrigo <span id="tallar">Tallar</span></h1>
             <div id="img-container">
                 <img alt="Image could not load" src="Archivos/FotoCV.jpeg" id="pic">
             </div>
-            <p id="bio">My name is Rodrigo Tallar and I am from the beatufiul country of Chile.
+            <p id="bio">
+                My name is Rodrigo Tallar and I am from the beatufiul country of Chile.
                 Among other things, I'm a human being, a student, a gamer and a developer.
-                I'm currently a computer science student at UTFSM, from which I expect to graduate in 2026.
+                I'm currently studing for a computer science degree at UTFSM.
             </p>
         </section>
 
+        <hr>
+
         <section id="work">
-            <h2>Proyectos</h2>
+            <h2>Projects</h2>
             <a class="github" href="https://github.com/rtallarr" target="_blank"><i class="fab fa-github"></i> Github</a>
         </section>
 
+        <hr>
+
         <section id="others">
             <h2>Others</h2>
-            <a class="bottom_links" href="Horario/horario.html"><i class="fas fa-calendar-alt"></i> Schedule</a>
+            <a class="bottom_links" href="horario/horario.html"><i class="fas fa-calendar-alt"></i> Schedule</a>
             <a class="bottom_links" target="_blank" href="Archivos/CV.pdf"><i class="far fa-address-card"></i> Curriculum Vitae</a>
         </section>
+
+        <hr>
 
         <section id="contact">
             <h2>Contact</h2>
@@ -54,10 +61,13 @@
         </section>
 
         <footer class="copyright">
-            &copy; 2021 Rodrigo Tallar.
+            &copy;
+            <span id="copyright">
+                <script>document.getElementById("copyright").appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                Rodrigo Tallar.
+            </span>
         </footer>
 
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script> <!-- Pageclip-->
-    <script src="Controller/jQuery.js"></script>
     </body>
 </html>

@@ -14,7 +14,15 @@ textarea {
     height: 350px;
 }
 
+#send {
+    width: 350px; /* pq chucha no es del mismo tamaño*/
+    background-color: white;
+    color: black;
+    border: 1px solid #54c8ff;
+}
+
 #send:hover {
-    background-color: gray;
+    background-color: #54c8ff;
+    color: white;
     cursor: pointer;
 }
