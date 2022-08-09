@@ -6,28 +6,24 @@
     background-color: rgb(130, 200, 200);
 }
 
-.redes {
-    background-color: rgb(170, 13, 170);
-}
-
-.fis {
-    background-color: forestgreen;
-}
-
-.algo {
-    background-color: rgb(33, 54, 241);
-}
-
-.fio {
+.rojo {
     background-color: red;
+}
+
+.morado {
+    background-color: rgb(170, 13, 170);
 }
 
 .soft {
     background-color: rgb(179, 179, 95);
 }
 
-.econo {
-    background-color: lightskyblue;
+.num {
+    background-color: forestgreen;
+}
+
+.numm {
+    background-color: rgb(42, 192, 42);
 }
 
 .extra {

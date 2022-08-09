@@ -25,7 +25,7 @@ ul {
 #three::marker{
     content:"\25A0";
     font-size: 1.5rem;
-    color: rgb(33, 54, 241);
+    color: rgb(42, 192, 42);
     vertical-align: bottom;
 }
 
