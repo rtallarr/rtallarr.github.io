@@ -17,7 +17,7 @@ h1, h2 {
     /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;*/
 }
 
-nav{
+nav {
     background-color: white;
     display: block;
     position: fixed;
@@ -27,7 +27,7 @@ nav{
     text-align: center;
 }
 
-nav:hover{
+nav:hover {
     cursor: pointer;
 }
 
