@@ -26,3 +26,9 @@ textarea {
     color: white;
     cursor: pointer;
 }
+
+.bottom_links{
+    color: rgb(134, 150, 144);
+    display: block;
+    text-decoration: none;
+}
