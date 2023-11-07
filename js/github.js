@@ -5,7 +5,7 @@ async function getLanguages() {
     return response.text();
 }
 
-getLanguages().then(data => 
-    //console.log(data)
-    document.getElementById('svg-placeholder').innerHTML = data
-)
+//getLanguages().then(data => 
+//    //console.log(data)
+//    document.getElementById('svg-placeholder').innerHTML = data
+//)
