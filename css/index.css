@@ -27,8 +27,7 @@ textarea {
     cursor: pointer;
 }
 
-.bottom_links{
+.top_icon{
     color: rgb(134, 150, 144);
-    display: block;
     text-decoration: none;
 }
