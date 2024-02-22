@@ -27,5 +27,6 @@ getOwnedGames().then(data =>
 
 getMostPlayed().then(data => 
     //console.log(idGames.find(x => x.id == data.appid)['name'] + ' ' + data.playtime_forever)
-    document.getElementById('mostPlayed').innerHTML = idGames.find(x => x.id == data.appid)['name'] + ' - ' + (data.playtime_forever / 60).toFixed(1) + ' hours'
+    document.getElementById('mostPlayed').outerHTML = idGames.find(x => x.id == data.appid)['name'] + ' - ' + (data.playtime_forever / 60).toFixed(1) + ' hours'
+    //console.log(document.getElementById('mostPlayed').outerHTML)
 )
