@@ -7,34 +7,40 @@ function daysInPrevMonth (month, year) {
     return new Date(year, month, 0).getDate();
 }
 
-function calculateAge(dob) {
+ function calculateAge(dob) {
     var today = new Date();
-    var age = today.getFullYear() - dob.getFullYear();
-    var months = today.getMonth() - dob.getMonth();
-    var days = today.getDate() - dob.getDate();
 
-    //console.log(dob)
-    //console.log(today)
-    //console.log("today year", today.getFullYear(), "dob year", dob.getFullYear(), "resta", age)
-    //console.log("today month", today.getMonth(), "dob month", dob.getMonth(), "resta", months)
-    //console.log("today day", today.getDate(), "dob day", dob.getDate(), "resta", days)
+    const currentAge = today.getFullYear();
+    const dobAge = dob.getFullYear();
 
-    //si el mes de hoy es menor al mes de nacimiento
-    if (months < 0) {
-        age -= 1;
-        months += 12;
+    const currentMonth = today.getMonth();
+    const dobMonth = dob.getMonth();
+
+    const currentDay = today.getDate();
+    const dobDay = dob.getDate();
+
+    var age = currentAge - dobAge;
+
+    if (currentMonth >= dobMonth) {
+        var months = currentMonth - dobMonth;
+    } else {
+        age--;
+        var months = 12 + currentMonth - dobMonth;
     }
 
-    //si el dia de hoy es menor al dia de nacimiento
-    if (days < 0) {
-        let daysInMonth = daysInPrevMonth(today.getMonth(), today.getFullYear());
-        //console.log("daysInMonth", daysInMonth)
-        days += daysInMonth;
-        months -= 1;
+    if (currentDay >= dobDay) {
+        var days = daysInPrevMonth(today.getMonth(), today.getFullYear()) + currentDay - dobDay;
+    } else {
+        var days = daysInPrevMonth(today.getMonth(), today.getFullYear()) + currentDay - dobDay;
+        months--;
+        if (months < 0) {
+            months = 11;
+            age--;
+        }
     }
+
 
     return age + ' years, ' + months + ' months and ' + days + ' days';
-}
+ }
 
-var age = calculateAge(new Date('3/13/2000'));
-document.getElementById('age').innerHTML = age;
+document.getElementById('age').innerHTML = calculateAge(new Date('3/13/2000'));
