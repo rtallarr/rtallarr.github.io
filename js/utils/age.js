@@ -7,7 +7,7 @@ function daysInPrevMonth (month, year) {
     return new Date(year, month, 0).getDate();
 }
 
- function calculateAge(dob) {
+function calculateAge(dob) {
     var today = new Date();
 
     const currentAge = today.getFullYear();
@@ -21,6 +21,10 @@ function daysInPrevMonth (month, year) {
 
     var age = currentAge - dobAge;
 
+    console.log('currentAge', currentAge, 'dobAge', dobAge);
+    console.log('currentMonth', currentMonth, 'dobMonth', dobMonth);
+    console.log('currentDay', currentDay, 'dobDay', dobDay);
+
     if (currentMonth >= dobMonth) {
         var months = currentMonth - dobMonth;
     } else {
@@ -29,7 +33,7 @@ function daysInPrevMonth (month, year) {
     }
 
     if (currentDay >= dobDay) {
-        var days = daysInPrevMonth(today.getMonth(), today.getFullYear()) + currentDay - dobDay;
+        var days = currentDay - dobDay;
     } else {
         var days = daysInPrevMonth(today.getMonth(), today.getFullYear()) + currentDay - dobDay;
         months--;
@@ -41,6 +45,6 @@ function daysInPrevMonth (month, year) {
 
 
     return age + ' years, ' + months + ' months and ' + days + ' days';
- }
+}
 
 document.getElementById('age').innerHTML = calculateAge(new Date('3/13/2000'));
