@@ -164,6 +164,9 @@
                             <div class="col-6">Rapid games played</div>
                             <div class="col-6"><p id="chessGames"></p></div>
                         </div>
+                        <div>
+                            <canvas id="chart1"></canvas>
+                        </div>
                         <div class="row">
                             <div class="col-6"><p>Games owned in steam</p></div>
                             <div class="col-6"><p id="gamesOwned">Loading...</p></div>
@@ -216,11 +219,13 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script><!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js -->
         <script src="js/scripts.js"></script><!-- Core theme JS-->
         <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script> <!-- Pageclip-->
         <script src="./js/utils/age.js"></script>
         <script src="js/api-calls/github.js"></script>
         <script src="js/api-calls/steam.js"></script>
         <script src="js/api-calls/chess.js"></script>
+        <script src="./js/charts/chart.js"></script>
     </body>
 </html>
