@@ -21,9 +21,9 @@ function calculateAge(dob) {
 
     var age = currentAge - dobAge;
 
-    console.log('currentAge', currentAge, 'dobAge', dobAge);
-    console.log('currentMonth', currentMonth, 'dobMonth', dobMonth);
-    console.log('currentDay', currentDay, 'dobDay', dobDay);
+    //console.log('currentAge', currentAge, 'dobAge', dobAge);
+    //console.log('currentMonth', currentMonth, 'dobMonth', dobMonth);
+    //console.log('currentDay', currentDay, 'dobDay', dobDay);
 
     if (currentMonth >= dobMonth) {
         var months = currentMonth - dobMonth;
