@@ -1,10 +1,12 @@
-const urlGameCount = 'https://rtback.azurewebsites.net/steam/gameCount'
-const urlMostPlayed = 'https://rtback.azurewebsites.net/steam/mostPlayed'
+const baseUrl = 'https://rtback-efcjbhcqghbwfgf5.eastus-01.azurewebsites.net'
+const urlGameCount = `${baseUrl}/steam/gameCount`
+const urlMostPlayed = `${baseUrl}/steam/mostPlayed`
 
 const idGames = [
     {"id": 252490, "name": "Rust"},
     {"id": 1258080, "name": "Shop Titans"},
-    {"id": 311210, "name": "Call of Duty®: Black Ops III"}
+    {"id": 311210, "name": "Call of Duty®: Black Ops III"},
+    {"id": 526870, "name": "Satisfactory"},
 ]
 
 async function getOwnedGames() {
