@@ -14,29 +14,20 @@
         <link href="css/styles.css" rel="stylesheet" /> <!-- Core theme CSS (includes Bootstrap)-->
         <script src="https://kit.fontawesome.com/acb5e52e54.js" crossorigin="anonymous"></script> <!-- iconos -->
         <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen"> <!-- Pageclip -->
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Y0KH76RDL"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-0Y0KH76RDL');
-        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#page-top">Rodrigo Tallar</a>
-                <a class="top_icon m-2 justify-content-left" href="https://github.com/rtallarr" target="_blank"><i class="fab fa-github"></i></a>
-                <a class="top_icon m-2 justify-content-left" href="https://www.linkedin.com/in/rtallarr" target="_blank"><i class="fab fa-linkedin-in"></i></i></a>
+                <a class="navbar-brand" href="#page-top" onclick="NavEvent('home')">Rodrigo Tallar</a>
+                <a class="top_icon m-2 justify-content-left" href="https://github.com/rtallarr" target="_blank" onclick="TopButtonEvent('Github')"><i class="fab fa-github"></i></a>
+                <a class="top_icon m-2 justify-content-left" href="https://www.linkedin.com/in/rtallarr" target="_blank" onclick="TopButtonEvent('Linkedin')"><i class="fab fa-linkedin-in"></i></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#pics">Pictures</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#numbers">Stats</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pics" onclick="NavEvent('pics')">Pictures</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#numbers" onclick="NavEvent('stats')">Stats</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" onclick="NavEvent('contact')">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -222,5 +213,7 @@
         <script src="js/api-calls/github.js"></script>
         <script src="js/api-calls/steam.js"></script>
         <script src="js/api-calls/chess.js"></script>
+        <script src="js/utils/events.js"></script>
+        <script defer data-project="67e9b82eb9698244376e562e" src="https://cdn.jsdelivr.net/gh/litlyx/litlyx-js/browser/litlyx.js"></script>
     </body>
 </html>
