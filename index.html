@@ -25,6 +25,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#projects" onclick="NavEvent('projects')">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#pics" onclick="NavEvent('pics')">Pictures</a></li>
                         <li class="nav-item"><a class="nav-link" href="#numbers" onclick="NavEvent('stats')">Stats</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact" onclick="NavEvent('contact')">Contact</a></li>
@@ -63,7 +64,21 @@
                 <!-- <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a> -->
             </div>
         </header>
-        <!-- About section-->
+        <!-- Projects section-->
+        <section style="background-color: rgb(242, 242, 242);" id="projects">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="mb-3">Projects</h2>
+                        <p class="lead">
+                            What I'm currently working on, at least in github, publicly:
+                        </p>
+                        <div id="github"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pics section-->
         <section>
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
@@ -123,6 +138,7 @@
                 </div>
             </div>
         </section>
+        <!-- Stats section-->
          <section style="background-color: rgb(242, 242, 242);" id="numbers">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
@@ -145,7 +161,7 @@
                         </div>
                         <div class="row">
                             <div class="col-6"><p>Liked songs in spotify</p></div>
-                            <div class="col-6"><p>1256</p></div>
+                            <div class="col-6"><p>1334</p></div>
                         </div>
                         <div class="row">
                             <div class="col-6">Chess.com rapid Elo</div>
