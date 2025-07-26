@@ -34,7 +34,7 @@
                             I’m documenting this project day by day — not through a step-by-step tutorial, but as a log of discoveries, small victories, and inevitable mistakes.
                             Think of this blog as a journal of the process, with all the ups and downs included.
                         </p>
-                        <h3 class="mb-3">The goal</h3>
+                        <h4 class="mb-3">The goal</h4>
                         <p class="lead">
                             The vision was simple (maybe not)
                             Build a device that can accurately pour different liquids to mix cocktails at the push of a button. <br>
@@ -47,15 +47,15 @@
                             <li>Fluid control with pumps and valves</li>
                             <li>Building something smart, maybe even connected</li>
                         </ul>
-                        <h3 class="mb-3">Inspiration Sources</h3>
+                        <h4 class="mb-3">Inspiration Sources</h4>
                         <p class="lead">
                             While the concept of robotic bartenders isn’t new, several DIY projects online inspired me:
                             <ul>
-                                <li><a class="m-2 justify-content-left" href="https://github.com/rtallarr" target="_blank">a</a></li>
-                                <li>BarBot and other automated cocktail machines shared on YouTube and Reddit</li>
-                                <li>Open-source projects like BarMixvah</li>
-                                <li>Smart kitchen and home automation gadgets</li>
-                                <li>My own past experience with Arduino projects, now stepping up to more complex hardware</li>
+                                <li><a class="m-2 justify-content-left" href="https://projecthub.arduino.cc/sidlauskas/barbot-cocktail-mixing-robot-5b3b3c" target="_blank">BarBot shared in the arduino project hub</a></li>
+                                <li><a class="m-2 justify-content-left" href="https://www.instructables.com/Automated-Cocktail-Drink-Machine" target="_blank">Automated Cocktail Drink Machine</a></li>
+                                <li><a class="m-2 justify-content-left" href="https://magazine.raspberrypi.com/articles/how-i-made-an-arduino-cocktail-machine" target="_blank">How I made an Arduino cocktail machine</a></li>
+                                <li><a class="m-2 justify-content-left" href="https://www.youtube.com/watch?v=hJIkJ9x0-JQ" target="_blank">The Inebriator</a></li>
+                                <li><a class="m-2 justify-content-left" href="https://projecthub.arduino.cc/Seafox_C/cheap-portable-cocktail-maker-barbot-with-app-c0a8c3" target="_blank">Cheap portable Cocktail maker Barbot with App!</a></li>
                             </ul>
                             I wanted to take a modular, approachable path — no overcomplicated mechanics or custom 3D printed parts at first, but something functional and upgradeable.
                             <!-- But I’m not jumping straight into the full machine. -->
@@ -71,12 +71,12 @@
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 id="pics">Part 2: Tools and Materials. July 23-25</h2>
+                        <h2 id="pics">Part 2: Tools and Materials. July 22-24</h2>
                         <p class="lead">
                             After deciding to build the cocktail maker, I did what any reasonable person would do: opened twenty tabs, searched for hours and days, watched tutorials and guides, components, other peoples builds.
                             This part of the process was honestly fun. Between the electronics, tubing, pumps, and basic tools I didn’t have yet, I was deep into “DIY cocktail machine starter pack” territory.
                         </p>
-                        <h3 class="mb-3">Things I Already Had</h3>
+                        <h4 class="mb-3">Things I Already Had</h4>
                         <p class="lead">
                             Luckily, I wasn’t starting from absolute zero. I had a few parts left over from past mini-projects:
                             Arduino Uno – A solid board for prototyping, though I knew I'd switch to an ESP32 later.
@@ -86,7 +86,7 @@
                             Some copper cables lying around – Perfect for wiring up the prototype without running out.
                             Not enough to build the machine, but enough to start messing around.
                         </p>
-                        <h3 class="mb-3">Things I Needed to Order</h3>
+                        <h4 class="mb-3">Things I Needed to Order</h4>
                         <p class="lead">
                             I split the shopping list into two parts: the tools I needed to properly work with electronics, and the prototype components I’d need to start building the actual cocktail maker.
                             Tools:
@@ -101,7 +101,7 @@
                             0.96-inch OLED display – Honestly, I saw it while browsing and couldn’t resist. It was too cheap to pass up.
                             12V 10A power supply – Plenty of juice for the pumps and electronics.
                         </p>
-                        <h3 class="mb-3">The Multimeter Incident</h3>
+                        <h4 class="mb-3">The Multimeter Incident</h4>
                         <p class="lead">
                             Within just three hours of the tool kit arriving, I managed to mess something up.
                             I tried measuring current without switching the probes properly and instantly blew the fuse inside the multimeter. After that, voltage mode stopped working too — only resistance mode still worked.
@@ -113,17 +113,17 @@
                             </figure>
                             
                         </p>
-                        <h3 class="mb-3">Other Early Moments</h3>
+                        <h4 class="mb-3">Other Early Moments</h4>
                         <p class="lead">
                             The day after ordering, the soldering iron and multimeter arrived. While waiting, I found an AC cable and plug.
                             <figure>
-                                <img src="assets/electro/cableplug.jpeg" class="w-100" alt="Blown fuse photo">
-                                <figcaption class="d-flex justify-content-center">Getting the cable ready for the power supply</figcaption>
+                                <img src="assets/electro/cableplug.jpeg" class="w-100" alt="Cable and plug photo">
+                                <figcaption class="d-flex justify-content-center">Cable and plug I found</figcaption>
                             </figure>
                             After attaching the plug to the cable, the soldering kit arrived, so I did my first soldering test.  
                             Perfect timing since a toy motor I had lying around had its wires pulled out.
                             <figure>
-                                <img src="assets/electro/SolderMotor.jpeg" class="w-100" alt="Blown fuse photo">
+                                <img src="assets/electro/SolderMotor.jpeg" class="w-100" alt="Sooldering test photo">
                                 <figcaption class="d-flex justify-content-center">My first ever soldering test on a toy motor</figcaption>
                             </figure>
                         </p>
@@ -136,7 +136,29 @@
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="mb-3">p3</h2>
+                        <h2 class="mb-3">Part 3: First Pump Test. July 25</h2>
+                        <p class="lead">
+                            After a few days of planning, ordering, and burning multimeters — it was finally time to test something real. <br>
+                            I had a small micro peristaltic pump lying around, one I had ordered months ago just to experiment with. 
+                            Since the other pumps were still in transit, this was the perfect chance to do an early test. <br>
+                            I found an old 12V 1A AC adapter, stripped its barrel connector, connected the wires to the pump, and plugged it in. It worked! <br>
+                            <figure>
+                                <img src="assets/electro/acAdaptor.jpeg" class="w-50" alt="Old AC adaptor">
+                                <figcaption class="d-flex justify-content-center">Old AC adaptor</figcaption>
+                            </figure>
+                            After that quick sanity check, I built a basic control circuit using an L293D and a potentiometer, plus two buttons: 
+                            one for on/off, and another to switch direction. <br>
+                            The L293D is a simple motor driver chip — it lets you control the direction and speed of small DC motors using low-voltage signals from something like an Arduino. 
+                            The potentiometer is a knob that acts like a variable resistor, letting me adjust the motor speed manually. <br>
+                            <figure>
+                                <img src="assets/electro/firstPumpTest.jpeg" class="w-100" alt="First pump test">
+                                <figcaption class="d-flex justify-content-center">First pump test</figcaption>
+                            </figure>
+                            It was a great excuse to start wiring things up and see how well I could control the motor. <br>
+                            No liquid involved yet — just dry spinning — but it felt like a solid first step. <br>
+                            With that working, the next step was clear: add water to the setup and start measuring how much it pumps per minute. 
+                            Time to move from spinning air to moving actual liquid. <br>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -147,6 +169,8 @@
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2 class="mb-3">p4</h2>
+                        <h4 class="mb-3"></h4>
+                        <p class="lead"></p>
                     </div>
                 </div>
             </div>
