@@ -75,58 +75,67 @@
                     <div class="col-lg-8">
                         <h2 id="pics">Part 2: Tools and Materials. July 22-24</h2>
                         <p class="lead">
-                            After deciding to build the cocktail maker, I did what any reasonable person would do: opened twenty tabs, searched for hours and days, watched tutorials and guides, components, other peoples builds.
-                            This part of the process was honestly fun. Between the electronics, tubing, pumps, and basic tools I didn’t have yet, I was deep into “DIY cocktail machine starter pack” territory.
+                            After deciding to build the cocktail maker, I did what any reasonable person would do: opened twenty tabs, dove into forums, watched way too many YouTube tutorials, and got lost in an endless rabbit hole of components and builds..
+                            This part of the process was honestly fun. Between the researching electronics, tubing, pumps, and all the basic tools I didn’t own yet, I quickly found myself deep in “DIY cocktail machine starter pack” territory.
                         </p>
                         <h4 class="mb-3">Things I Already Had</h4>
                         <p class="lead">
-                            Luckily, I wasn’t starting from absolute zero. I had a few parts left over from past mini-projects:
-                            Arduino Uno – A solid board for prototyping, though I knew I'd switch to an ESP32 later.
-                            Jumper wires – Always useful for testing on breadboards.
-                            Breadboard – Already broken in from past projects.
-                            AC cable and plug (probably?) – Handy for connecting to a future power supply or wall adapter.
-                            Some copper cables lying around – Perfect for wiring up the prototype without running out.
+                            Luckily, I wasn’t starting from absolute zero. I had a few leftover parts from past mini-projects:
+                        </p>
+                        <ul class="lead">
+                            <li>Arduino Uno – A solid board for prototyping. I might switch to something else later — maybe a Raspberry Pi if I want more power or connectivity.</li>
+                            <li>Breadboard – Already broken in from previous experiments.</li>
+                            <li>Jumper wires – Always useful for quick testing on the breadboard.</li>
+                            <li>AC cable and plug (I think) – Could be handy for hooking up a wall adapter or power supply.</li>
+                            <li>Some loose copper wires – Enough to get the prototype wired up and moving.</li>
+                        </ul>
+                        <p class="lead">
                             Not enough to build the machine, but enough to start messing around.
                         </p>
                         <h4 class="mb-3">Things I Needed to Order</h4>
                         <p class="lead">
                             I split the shopping list into two parts: the tools I needed to properly work with electronics, and the prototype components I’d need to start building the actual cocktail maker.
-                            Tools:
                             I realized I needed some basic tools to get started:
-                            Solder – Leaded, because I wanted my first joints to flow nicely.
-                            Soldering iron – Essential for connecting components.
-                            Multimeter –  For checking voltage, resistance, and current… or so I hoped.
-                            Wire strippers – Because stripping wires with scissors is not a good idea.
-                            Prototype Components:
-                            Two 12V 500ml peristaltic pumps – The core for moving liquids precisely.
-                            4-channel relay module – To control the pumps safely with the microcontroller.
-                            0.96-inch OLED display – Honestly, I saw it while browsing and couldn’t resist. It was too cheap to pass up.
-                            12V 10A power supply – Plenty of juice for the pumps and electronics.
                         </p>
+                        <ul class="lead">
+                            <li>Soldering iron – Essential for connecting components.</li>
+                            <li>Solder – Leaded, because I wanted my first joints to flow nicely.</li>
+                            <li>Flush cutters – For trimming component leads cleanly and cutting wires to size.</li>
+                            <li>Multimeter –  For checking voltage, resistance, and current… or so I hoped.</li>
+                        </ul>
+                        <p class="lead">                        
+                            Prototype Components:
+                        </p>
+                        <ul class="lead">
+                            <li>Two 12V 500ml peristaltic pumps – The core for moving liquids precisely.</li>
+                            <li>4-channel relay module – To control the pumps safely with the microcontroller.</li>
+                            <li>0.96-inch OLED display – Honestly, I saw it while browsing and couldn’t resist. It was too cheap to pass up.</li>
+                            <li>12V 10A power supply – Plenty of juice for the pumps and electronics.</li>
+                        </ul>
                         <h4 class="mb-3">The Multimeter Incident</h4>
                         <p class="lead">
                             Within just three hours of the tool kit arriving, I managed to mess something up.
-                            I tried measuring current without switching the probes properly and instantly blew the fuse inside the multimeter. After that, voltage mode stopped working too — only resistance mode still worked.
+                            I tried measuring current without switching the probes properly and instantly blew the fuse inside the multimeter. Voltage readings stopped working, and only resistance mode still showed signs of life.
                             When I opened it up and saw the tiny glass fuse snapped in half, I laughed it off. If you haven’t blown a multimeter fuse yet, are you even doing electronics?
-                            <figure>
-                                <img src="assets/electro/blownFuse.jpeg" class="w-100" alt="Blown fuse photo">
+                            <figure class="d-flex justify-content-center flex-column align-items-center">
+                                <img src="assets/electro/blownFuse.jpeg" class="w-100 mb-3" alt="Blown fuse photo">
                                 <img src="assets/electro/blownFuseZoom.jpeg" class="d-block w-50" alt="Blown fuse photo">
-                                <figcaption class="d-flex justify-content-center">Photos of the blown fuse</figcaption>
+                                <figcaption>Photos of the blown fuse</figcaption>
                             </figure>
                             
                         </p>
                         <h4 class="mb-3">Other Early Moments</h4>
                         <p class="lead">
                             The day after ordering, the soldering iron and multimeter arrived. While waiting, I found an AC cable and plug.
-                            <figure>
+                            <figure class="d-flex justify-content-center flex-column align-items-center">
                                 <img src="assets/electro/cableplug.jpeg" class="w-100" alt="Cable and plug photo">
-                                <figcaption class="d-flex justify-content-center">Cable and plug I found</figcaption>
+                                <figcaption>Cable and plug I found</figcaption>
                             </figure>
                             After attaching the plug to the cable, the soldering kit arrived, so I did my first soldering test.  
                             Perfect timing since a toy motor I had lying around had its wires pulled out.
-                            <figure>
+                            <figure class="d-flex justify-content-center flex-column align-items-center">
                                 <img src="assets/electro/SolderMotor.jpeg" class="w-100" alt="Sooldering test photo">
-                                <figcaption class="d-flex justify-content-center">My first ever soldering test on a toy motor</figcaption>
+                                <figcaption>My first ever soldering test on a toy motor</figcaption>
                             </figure>
                         </p>
                     </div>
@@ -138,28 +147,66 @@
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="mb-3">Part 3: First Pump Test. July 25</h2>
+                        <h2 class="mb-3">Part 3: First Pump Test. July 25-26</h2>
                         <p class="lead">
                             After a few days of planning, ordering, and burning multimeters — it was finally time to test something real. <br>
                             I had a small micro peristaltic pump lying around, one I had ordered months ago just to experiment with. 
                             Since the other pumps were still in transit, this was the perfect chance to do an early test. <br>
                             I found an old 12V 1A AC adapter, stripped its barrel connector, connected the wires to the pump, and plugged it in. It worked! <br>
-                            <figure>
-                                <img src="assets/electro/acAdaptor.jpeg" class="w-50" alt="Old AC adaptor">
-                                <figcaption class="d-flex justify-content-center">Old AC adaptor</figcaption>
-                            </figure>
+                        </p>
+                        <figure class="d-flex justify-content-center flex-column align-items-center">
+                            <img src="assets/electro/acAdaptor.jpeg" class="w-50" alt="Old AC adaptor">
+                            <figcaption>Old AC adaptor</figcaption>
+                        </figure>
+                        <p class="lead">
                             After that quick sanity check, I built a basic control circuit using an L293D and a potentiometer, plus two buttons: 
                             one for on/off, and another to switch direction. <br>
                             The L293D is a simple motor driver chip — it lets you control the direction and speed of small DC motors using low-voltage signals from something like an Arduino. 
-                            The potentiometer is a knob that acts like a variable resistor, letting me adjust the motor speed manually. <br>
-                            <figure>
-                                <img src="assets/electro/firstPumpTest.jpeg" class="w-100" alt="First pump test">
-                                <figcaption class="d-flex justify-content-center">First pump test</figcaption>
-                            </figure>
+                            The potentiometer is a knob that acts like a variable resistor, letting me manually adjust the motor speed. <br>
+                        </p>
+                        <figure class="d-flex justify-content-center flex-column align-items-center">
+                            <img src="assets/electro/firstPumpTest.jpeg" class="w-100" alt="First pump test">
+                            <figcaption>First pump test</figcaption>
+                        </figure>
+                        <p class="lead">
                             It was a great excuse to start wiring things up and see how well I could control the motor. <br>
                             No liquid involved yet — just dry spinning — but it felt like a solid first step. <br>
-                            With that working, the next step was clear: add water to the setup and start measuring how much it pumps per minute. 
-                            Time to move from spinning air to moving actual liquid. <br>
+                            Once the dry spinning worked, it was time to add water and do some flow testing. I headed to the kitchen and grabbed a measuring cup for a quick test.
+                        </p>
+                        <h4 class="mb-3">The Magic Smoke Appears</h4>
+                        <p class="lead">
+                            But not everything went smoothly. <br>
+                            While rewiring the setup in the kitchen, I accidentally reversed the polarity: ground to VCC, VCC to ground. 
+                            A puff of smoke came out, the L293D motor driver instantly died, and part of my breadboard melted around the chip socket. <br>
+                        </p>
+                        <figure class="d-flex justify-content-center flex-column align-items-center">
+                            <img src="assets/electro/burnedBread.jpeg" class="w-100" alt="Burned breadboard">
+                            <figcaption>The damages</figcaption>
+                        </figure>
+                        <p class="lead">
+                            I confirmed the chip was dead by checking continuity between pin 6 and ground — it shorted.
+                            Luckily, I had a spare chip on hand. I swapped it out, rewired, and brought the setup back to life.
+                        </p>
+                        <h4 class="mb-3">Flow Rate Measurements</h4>
+                        <p class="lead">
+                            To get a more accurate estimate of the pump’s flow rate I pumperd water into the measuring cup while timing the process.
+                            Using a stopwatch, I hit the lap button as the water level reached 100 ml, 150 ml, and finally 200 ml.
+                        </p>
+                        <figure class="d-flex justify-content-center flex-column align-items-center">
+                            <img src="assets/electro/microPumpTimes.jpeg" class="w-50" alt="Stopwatch times screenshot">
+                            <figcaption>Stopwatch times</figcaption>
+                        </figure>
+                        <p class="lead">
+                            This method allowed me to track cumulative time for each volume without restarting the timer, making it easier to calculate a consistent average. <br>
+                            I then averaged the time per 50 ml based on each interval:
+                        </p>
+                        <ul class="lead">
+                            <li>100 ml → 27.89 s (13.95 s per 50 ml)</li>
+                            <li>150 ml → 43.97 s (14.66 s per 50 ml)</li>
+                            <li>200 ml → 58.92 s (14.73 s per 50 ml)</li>
+                        </ul>
+                        <p class="lead">
+                            The results? An average of 14.45 seconds per 50 ml, which corresponds to a flow rate of approximately 207.61 ml/min.
                         </p>
                     </div>
                 </div>
