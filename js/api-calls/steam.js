@@ -1,4 +1,4 @@
-const baseUrl = 'https://rtback-efcjbhcqghbwfgf5.eastus-01.azurewebsites.net'
+const baseUrl = 'https://rtback-efcjbhcqghbwfgf5.brazilsouth-01.azurewebsites.net'
 const urlGameCount = `${baseUrl}/steam/gameCount`
 const urlMostPlayed = `${baseUrl}/steam/mostPlayed`
 
